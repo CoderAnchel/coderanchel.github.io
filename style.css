@@ -1,0 +1,1036 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+nav div {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.uvst {
+    width: 80px;
+    height: 82px;
+}
+
+.opt {
+    display: flex;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+}
+
+.list li {
+    padding:0 20px;
+    font-weight: 300;
+}
+
+.banner {
+    width: 100%;
+    height: 900px;
+    background-image: url("https://unveranosinti.store/wp-content/uploads/2022/05/Untitled-design-8.png");
+    background-position: center center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-size: cover;
+}
+
+main {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.table {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #2b2b2b;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    flex-direction: column;
+    transition: all 0.5s;
+}
+
+.port {
+    display: flex;
+    align-items: center;
+}
+
+.port img {
+    width: 150px;
+}
+
+.desc {
+    margin-left: 10px;
+}
+
+.btn {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn2 {
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn3 {
+    padding:  5px 20px;
+    background: #040504;
+    color: #f4f4f4;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+
+footer {
+    background: #040504;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cositas {
+    color: #f4f4f4;
+}
+
+.todo {
+    display: none;
+    transition: all 3s;
+}
+
+
+.sorpresa {
+    display: block;
+    background: #040504;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 3s;
+}
+
+.sorpresa button {
+    padding:  5px 20px;
+    background: #2fff67;
+    border: none;
+    font-size: 70px;
+    border-radius: 20px;
+}
+
+.sorpresa button:hover {
+    cursor: pointer;
+}
+
+.sorpresa.active{
+    display: none;
+}
+
+
+.todo.active{
+    display: block;
+}
+
+
+.parte {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.letraa {
+    padding: 20px 0;
+    display: none;
+}
+
+.letraa p {
+    line-height: 35px;
+}
+
+.letraa.active {
+display: block;
+}
+
+.letra1 {
+    padding: 20px 0;
+    display: none;
+}
+
+.letra1 p {
+    line-height: 35px;
+}
+
+.letra1.active {
+display: block;
+}
+
+.letra2 {
+    padding: 20px 0;
+    display: none;
+}
+
+.letra2 p {
+    line-height: 35px;
+}
+
+.letra2.active {
+display: block;
+}
+
+.letra3 {
+    padding: 20px 0;
+    display: none;
+}
+
+.letra3 p {
+    line-height: 35px;
+}
+
+.letra3.active {
+display: block;
+}
+
+.letra4 {
+    padding: 20px 0;
+    display: none;
+}
+
+.letra4 p {
+    line-height: 35px;
+}
+
+.letra4.active {
+display: block;
+}
+
+.letra5 {
+    padding: 20px 0;
+    display: none;
+}
+
+.letra5 p {
+    line-height: 35px;
+}
+
+.letra5.active {
+display: block;
+}
+
+.letra6 {
+    padding: 20px 0;
+    display: none;
+}
+
+.letra6 p {
+    line-height: 35px;
+}
+
+.letra6.active {
+display: block;
+}
+
+.letra7 {
+    padding: 20px 0;
+    display: none;
+}
+
+.letra7 p {
+    line-height: 35px;
+}
+
+.letra7.active {
+display: block;
+}
+
+
+.letra8 {
+    padding: 20px 0;
+    display: none;
+}
+
+.letra8 p {
+    line-height: 35px;
+}
+
+.letra8.active {
+display: block;
+}
+
+.letra9 {
+    padding: 20px 0;
+    display: none;
+}
+
+.letra9 p {
+    line-height: 35px;
+}
+
+.letra9.active {
+display: block;
+}
+
+.letra9 {
+    padding: 20px 0;
+    display: none;
+}
+
+.letra9 p {
+    line-height: 35px;
+}
+
+.letra9.active {
+display: block;
+}
+
+.letra10 {
+    padding: 20px 0;
+    display: none;
+}
+
+.letra10 p {
+    line-height: 35px;
+}
+
+.letra10.active {
+display: block;
+}
+
+.letra11 {
+    padding: 20px 0;
+    display: none;
+}
+
+.letra11 p {
+    line-height: 35px;
+}
+
+.letra11.active {
+display: block;
+}
+
+.letra12 {
+    padding: 20px 0;
+    display: none;
+}
+
+.letra12 p {
+    line-height: 35px;
+}
+
+.letra12.active {
+display: block;
+}
+
+.letra13 {
+    padding: 20px 0;
+    display: none;
+}
+
+.letra13 p {
+    line-height: 35px;
+}
+
+.letra13.active {
+display: block;
+}
+
+
+.letra14 {
+    padding: 20px 0;
+    display: none;
+}
+
+.letra14 p {
+    line-height: 35px;
+}
+
+.letra14.active {
+display: block;
+}
+
+.letra15 {
+    padding: 20px 0;
+    display: none;
+}
+
+.letra15 p {
+    line-height: 35px;
+}
+
+.letra15.active {
+display: block;
+}
+
+.letra16 {
+    padding: 20px 0;
+    display: none;
+}
+
+.letra16 p {
+    line-height: 35px;
+}
+
+.letra16.active {
+display: block;
+}
+
+.letra17 {
+    padding: 20px 0;
+    display: none;
+}
+
+.letra17 p {
+    line-height: 35px;
+}
+
+.letra17.active {
+display: block;
+}
+
+.letra18 {
+    padding: 20px 0;
+    display: none;
+}
+
+.letra18 p {
+    line-height: 35px;
+}
+
+.letra18.active {
+display: block;
+}
+
+.letra19 {
+    padding: 20px 0;
+    display: none;
+}
+
+.letra19 p {
+    line-height: 35px;
+}
+
+.letra19.active {
+display: block;
+}
+
+.letra20 {
+    padding: 20px 0;
+    display: none;
+}
+
+.letra20 p {
+    line-height: 35px;
+}
+
+.letra20.active {
+display: block;
+}
+
+.letra21 {
+    padding: 20px 0;
+    display: none;
+}
+
+.letra21 p {
+    line-height: 35px;
+}
+
+.letra21.active {
+display: block;
+}
+
+.letra22 {
+    padding: 20px 0;
+    display: none;
+}
+
+.letra22 p {
+    line-height: 35px;
+}
+
+.letra22.active {
+display: block;
+}
+
+.letra23 {
+    padding: 20px 0;
+    display: none;
+}
+
+.letra23 p {
+    line-height: 35px;
+}
+
+.letra23.active {
+display: block;
+}
+
+
+
+.btn2 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn3 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #040504;
+}
+
+.btn4 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn5 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn6 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn6 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn7 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn8 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn9 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn10 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn11 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn12 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn13 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn14 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn15 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn16 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn17 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn200 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn100 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn18 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn19 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn20 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn21 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn22 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn23 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn24 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn2 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.btn1 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+.btn300 {
+    margin-top: 10px;
+    padding:  5px 20px;
+    background: #34d660;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.zapas{
+    width: 400px;
+    position: absolute;
+    top: 600px;
+    left: 10px;
+    rotate: 20deg;
+}
+
+.zapas2{
+    width: 450px;
+    position: absolute;
+    top: 600px;
+    right: 10px;
+    rotate: -20deg;
+    transform: scaleX(-1);
+}
+
+.sage {
+    width: 500px;
+}
+
+
+.sorpresa2 {
+    background: #040504;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 3s;
+}
+
+.sorpresa2 button {
+    padding:  5px 20px;
+    background: #2fff67;
+    border: none;
+    font-size: 70px;
+    border-radius: 20px;
+}
+
+.sorpresa2 button:hover {
+    cursor: pointer;
+}
+
+.sorpresa2.act {
+    display: block;
+}
+
+.sorpresa2.active{
+    display: none;
+}
+
+.sorpresa3 {
+    background: #040504;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 3s;
+}
+
+.sorpresa3 button {
+    padding:  5px 20px;
+    background: #2fff67;
+    border: none;
+    font-size: 70px;
+    border-radius: 20px;
+}
+
+.sorpresa3 button:hover {
+    cursor: pointer;
+}
+
+.sorpresa3.active{
+    display: none;
+}
+
+
+.sorpresa4 {
+    background: #040504;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 3s;
+}
+
+.sorpresa4 button {
+    padding:  5px 20px;
+    background: #2fff67;
+    border: none;
+    font-size: 70px;
+    border-radius: 20px;
+}
+
+.sorpresa4 button:hover {
+    cursor: pointer;
+}
+
+.desactivar {
+    display: none;
+}
+
+
+.desactivar2 {
+    display: none;
+}
+
+.desactivar.act {
+    display: block;
+}
+
+.desactivar.off {
+    display: none;
+}
+
+
+.desactivar2.act {
+    display: block;
+}
+
+
+.desactivar2.off {
+    display: none;
+}
+.desactivar3 {
+    display: none;
+}
+.desactivar3.act {
+    display: block;
+}
+
+.desactivar3.off {
+    display: none;
+}
+
+
+.desactivar4 {
+    display: none;
+}
+.desactivar4.act {
+    display: block;
+}
+
+.desactivar4.off {
+    display: none;
+}
+
+.libro {
+    width: 300px;
+}
+
+.cosita {
+
+}
+
+body {
+    font-family: Inter, -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.cositas{
+    color: #0070f3;
+}
+
+.button {
+    padding: 5px;
+    background: #0070f3;
+}
+
+.card1 {
+    border-radius: 20px;
+    width: 900px;
+    z-index: 0;
+    background: #0070f3;
+    margin-top: 10px;
+}
+
+.card1 {
+    display: none;
+}
+
+.card1.act {
+    display: block;
+}
+
+.card2 {
+    border-radius: 36px;
+    width: 900px;
+    z-index: 0;
+    background: #0070f3;
+    margin-top: 10px;
+}
+
+.card2 {
+    display: none;
+}
+
+.card2.act {
+    display: block;
+}
+
+
+.card3 {
+    border-radius: 20px;
+    width: 900px;
+    z-index: 0;
+    background: #0070f3;
+}
+
+
+.tarjeta {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tapa {
+    width: 900px;
+    height: 350px;
+    border-radius: 20px;
+    background: #ffffff;
+    background: #010100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta2 {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tapa2 {
+    width: 900px;
+    height: 350px;
+    border-radius: 20px;
+    background: #ffffff;
+    background: #010100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
